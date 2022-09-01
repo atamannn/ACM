@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BL", "ACM.BL\ACM.BL.csproj", "{2BF99815-1C24-4652-9642-A5356CABEE27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACM.BL", "ACM.BL\ACM.BL.csproj", "{2BF99815-1C24-4652-9642-A5356CABEE27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B9DF6C30-3FC5-4D38-A451-19763A94EB6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BLTests", "Tests\ACM.BLTests\ACM.BLTests.csproj", "{34791184-EC9C-4297-83DE-CB82E0BD8931}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{2BF99815-1C24-4652-9642-A5356CABEE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BF99815-1C24-4652-9642-A5356CABEE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BF99815-1C24-4652-9642-A5356CABEE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34791184-EC9C-4297-83DE-CB82E0BD8931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34791184-EC9C-4297-83DE-CB82E0BD8931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34791184-EC9C-4297-83DE-CB82E0BD8931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34791184-EC9C-4297-83DE-CB82E0BD8931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34791184-EC9C-4297-83DE-CB82E0BD8931} = {B9DF6C30-3FC5-4D38-A451-19763A94EB6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BA23AD4-3BD4-466A-A0DD-F33D1066FFEC}
